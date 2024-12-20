@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":357.77984619140627,"y":203.5526885986328,"z":-2.4472544193267824},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":224.13760375976563,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-6.18945837020874,"y":1.251389980316162,"z":-0.2703649401664734},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":3.0318102836608888,"orthographic":true}
+>>>>>>> parent of 61934591 (changes)
