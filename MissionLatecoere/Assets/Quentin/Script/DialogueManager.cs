@@ -17,8 +17,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextAsset inkJSON;
     [Header("Background management")]
     [SerializeField] private Sprite[] background;
-    [SerializeField] private Image backgroundPanel;
+    [SerializeField] private SpriteRenderer backgroundPanel;
     private Dictionary<string, Sprite> backgroundDictionary;
+    [Header("Foreground management")]
+    [SerializeField] private Sprite[] foreground;
+    [SerializeField] private SpriteRenderer foregroundPanel;
+    private Dictionary<string, Sprite> foregroundDictionary;
 
     private Story currentStory;
 
@@ -27,7 +31,8 @@ public class DialogueManager : MonoBehaviour
     private bool dialogueIsPlaying;
 
     private const string SPEAKER_TAG = "speaker";
-    private const string IMAGE_TAG = "image";
+    private const string BG_TAG = "BG";
+    private const string FG_TAG = "FG";
 
     private void Awake(){
         if (instance!=null){
@@ -42,18 +47,16 @@ public class DialogueManager : MonoBehaviour
 
     private void Start(){
         backgroundDictionary = new Dictionary<string, Sprite>();
-        foreach (var image in background){
-            backgroundDictionary.Add(image.name, image);
+        foreach (var bgimage in background){
+            backgroundDictionary.Add(bgimage.name, bgimage);
+        }
+        foregroundDictionary = new Dictionary<string, Sprite>();
+        foreach (var fgimage in foreground){
+            foregroundDictionary.Add(fgimage.name, fgimage);
         }
 
         currentStory = new Story(inkJSON.text);
         ContinueStory();
-    }
-
-    private void Update(){
-        //if (InputManager.GetInstance().GetSubmitPressed()){
-          //  ContinueStory();
-        //}
     }
 
     private void ExitDialogueMode(){
@@ -83,15 +86,22 @@ public class DialogueManager : MonoBehaviour
             }
             string tagKey=splitTag[0].Trim();
             string tagValue = splitTag[1].Trim();
-
             //handle the tag
             switch (tagKey){
                 case SPEAKER_TAG:
                     displayNameText.text=tagValue;
                     break;
-                case IMAGE_TAG:
+                case BG_TAG:
                     if (backgroundDictionary.ContainsKey(tagValue)){
                         backgroundPanel.sprite = backgroundDictionary[tagValue];
+                    }
+                    else{
+                        Debug.LogWarning("no image named "+tagValue);
+                    }
+                    break;
+                case FG_TAG:
+                    if (foregroundDictionary.ContainsKey(tagValue)){
+                        foregroundPanel.sprite = foregroundDictionary[tagValue];
                     }
                     else{
                         Debug.LogWarning("no image named "+tagValue);

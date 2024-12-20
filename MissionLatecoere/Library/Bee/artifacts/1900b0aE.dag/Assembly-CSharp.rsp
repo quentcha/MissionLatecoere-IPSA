@@ -388,6 +388,7 @@
 "Assets/Quentin/Script/CameraDrag.cs"
 "Assets/Quentin/Script/DialogueManager.cs"
 "Assets/Quentin/Script/multiple choice.cs"
+"Assets/Quentin/Script/testing_script.cs"
 -langversion:9.0
 
 /deterministic

@@ -24,6 +24,17 @@ MonoBehaviour:
     masterInkAssets: []
     localIncludePaths: []
     includes: []
+  - inkAsset: {fileID: 102900000, guid: 262dec454e51d8b4697a7379ee59bc6e, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: 9c5d35ada2c92c34a8eb8b6680bae6ea, type: 3}
+    unhandledCompileErrors: []
+    recursiveIncludeErrorPaths: []
+    errors: []
+    warnings: []
+    todos: []
+    masterInkAssets: []
+    localIncludePaths: []
+    includes: []
   - inkAsset: {fileID: 102900000, guid: 396a9ff339ef8704b9896cd02060b3ad, type: 3}
     jsonAssetDirectory: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: 1a8f6ece8d57f8846aaa8ab5074f8311, type: 3}
