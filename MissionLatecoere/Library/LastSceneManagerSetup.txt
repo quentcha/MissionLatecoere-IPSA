@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Quentin/Scenes/mini jeu choix.unity
+- path: Assets/Quentin/Scenes/anim.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
