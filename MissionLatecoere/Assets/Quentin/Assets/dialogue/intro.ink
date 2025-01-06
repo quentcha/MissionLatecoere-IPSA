@@ -3,9 +3,9 @@ Je suis Pierre-Georges Latécoère, ingénieur, rêveur… et, comme certains me
 Pour commencer je vais me présenter.
 Je suis né le 25 août 1883 à Bagnères-de-Bigorre, une charmante petite ville des Hautes-Pyrénées. 
 Mon père, en 1864, y a fondé une scierie qu’il nomma 
-les "Ateliers de menuiserie et de mécanique générale G. Latécoère". #BG:menuiserie#FG:vide
+les "Ateliers de menuiserie et de mécanique générale G. Latécoère". #BG:menuiserie#FG:menuisier
 C’est là que mon histoire commence, entre bois, machines, et un amour grandissant pour l’innovation.
-On me décrit souvent comme un élève brillant, et je dois admettre que j’avais un goût prononcé pour les études. #FG:etudiant#BG:ecole
+On me décrit souvent comme un élève brillant, et je dois admettre que j’avais un goût prononcé pour les études. #FG:etudiant#BG:bibliotheque
 À 17 ans, j’obtiens mon baccalauréat et me passionne également pour les langues étrangères, que j’apprends avec aisance. 
 Après avoir étudié au lycée Saint-Louis, à Paris, j’intègre en 1903 l’École Centrale, à l’âge de 20 ans. 
 Trois ans plus tard, en 1906, j’en sors diplômé, prêt à embrasser une carrière tournée vers l’ingénierie et l’innovation.

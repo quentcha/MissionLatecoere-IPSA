@@ -196,21 +196,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19620}
     - Class: 114
-      Script: {instanceID: 20202}
+      Script: {instanceID: 19832}
     - Class: 114
-      Script: {instanceID: 20558}
+      Script: {instanceID: 20204}
     - Class: 114
-      Script: {instanceID: 21580}
+      Script: {instanceID: 20560}
     - Class: 114
-      Script: {instanceID: 22362}
+      Script: {instanceID: 21582}
     - Class: 114
-      Script: {instanceID: 22600}
+      Script: {instanceID: 22364}
     - Class: 114
-      Script: {instanceID: 23582}
+      Script: {instanceID: 22602}
     - Class: 114
-      Script: {instanceID: 24556}
+      Script: {instanceID: 23584}
     - Class: 114
-      Script: {instanceID: 26654}
+      Script: {instanceID: 24558}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -680,6 +680,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: b71ef85eb643e635ccdc4fc1ca99ffe3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ParallaxCamera
   - hash:
       serializedVersion: 2
       Hash: b18151310f999106767addd7177d1a99
@@ -1424,12 +1430,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b71ef85eb643e635ccdc4fc1ca99ffe3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ParallaxCamera
   platform: 19
   scenePathNames:
   - Assets/Quentin/Scenes/testing.unity

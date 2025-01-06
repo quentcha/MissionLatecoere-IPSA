@@ -652,7 +652,7 @@ MonoBehaviour:
   background:
   - {fileID: 21300000, guid: 8583b73c1e913fa4bb19a9de289b754e, type: 3}
   - {fileID: 21300000, guid: ed83ba15bade4224db1805224195f225, type: 3}
-  - {fileID: 21300000, guid: 132d3388d8c80414589d9e8e4c52513d, type: 3}
+  - {fileID: 21300000, guid: 752a3fa1106e5de43b8354a64bcfc111, type: 3}
   - {fileID: 21300000, guid: 27b310a4e38c7184689e41e397033e3c, type: 3}
   - {fileID: 21300000, guid: 6ca434558bf49e84caff05298a27f255, type: 3}
   - {fileID: 21300000, guid: 56da40bd0f99eda4c8d71f93a416405c, type: 3}
@@ -663,7 +663,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 664f82dc6d102814aae4ad0a6fbbb935, type: 3}
   - {fileID: 21300000, guid: df0324c4084053a449ba353122fe7b59, type: 3}
   - {fileID: 21300000, guid: 4c78ff594ff00b146b4f0e508c6f4c6c, type: 3}
-  - {fileID: 21300000, guid: e0665022c41b7a14981c2c23b78d9a48, type: 3}
+  - {fileID: 21300000, guid: e4c4c6fcbc74bff4ebc40f58f68afea6, type: 3}
   foregroundPanel: {fileID: 1045714013}
 --- !u!1 &691181603
 GameObject:
